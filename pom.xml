@@ -25,11 +25,37 @@
 
   <name>javaweb(程序设计任务教程源码)</name>
   <modules>
-    <module>Chapter-One</module>
+    <module>Chapter-Three</module>
   </modules>
+
   <groupId>com.clevermis</groupId>
   <artifactId>javaweb(程序设计任务教程源码)</artifactId>
   <version>1.0-SNAPSHOT</version>
+
+
+
+  <dependencies>
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>servlet-api</artifactId>
+      <version>2.5</version>
+    </dependency>
+    <dependency>
+      <groupId>javax.servlet.jsp</groupId>
+      <artifactId>jsp-api</artifactId>
+      <version>2.2</version>
+    </dependency>
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>jstl</artifactId>
+      <version>1.2</version>
+    </dependency>
+    <dependency>
+      <groupId>javax.servlet.jsp.jstl</groupId>
+      <artifactId>jstl-api</artifactId>
+      <version>1.2</version>
+    </dependency>
+  </dependencies>
 
   <build>
     <plugins>
@@ -78,13 +104,5 @@
 
     </plugins>
   </build>
-
-  <dependencies>
-    <!--dependency>
-      <groupId>com.clevermis</groupId>
-      <artifactId>[the artifact id of the block to be mounted]</artifactId>
-      <version>1.0-SNAPSHOT</version>
-    </dependency-->
-  </dependencies>
 
 </project>
