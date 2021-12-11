@@ -1,7 +1,51 @@
 <!DOCTYPE web-app PUBLIC
- "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
- "http://java.sun.com/dtd/web-app_2_3.dtd" >
+  "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+  "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
 <web-app>
+
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <servlet-class>com.clevermis.HelloWorldServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <url-pattern>/HelloWorldServlet</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+    <servlet-name>HelloWorldServlet02</servlet-name>
+    <servlet-class>com.clevermis.HelloWorldServlet02</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HelloWorldServlet02</servlet-name>
+    <url-pattern>/HelloWorldServlet02</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+    <servlet-name>RequestMethodServlet</servlet-name>
+    <servlet-class>com.clevermis.RequestMethodServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RequestMethodServlet</servlet-name>
+    <url-pattern>/RequestMethodServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>TestServlet02</servlet-name>
+    <servlet-class>com.clevermis.TestServlet02</servlet-class>
+    <init-param>
+      <param-name>encoding</param-name>
+      <param-value>UTF-8</param-value>
+    </init-param>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TestServlet02</servlet-name>
+    <url-pattern>/TestServlet02</url-pattern>
+  </servlet-mapping>
+
+
 </web-app>
