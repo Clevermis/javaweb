@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+ * @Description TODO
+ * @Classname cssDemo03
+ * @Date 2021/12/11 下午3:46
+ * @Created by clevermis
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>选择器</title>
+  <style type="text/css">
+<!--    类选择器的定义-->
+    .red {
+  color: red;
+}
+    .green{
+      color: green;
+    }
+    .font18{
+      font-size: 18px;
+    }
+  /*  id选择器的定义*/
+    #bold {
+      font-weight: bold;
+    }
+    #font24{
+      font-size: 24px;
+    }
+  </style>
+</head>
+<body>
+
+<!--  类选择器的使用-->
+<h1 class="red"> 标题一：class="red",设置颜色为红色</h1>
+<p class="green font18">段落一： 设置颜色为绿色，字号为18px</p>
+<p class="red font18">段落一： 设置颜色为红色，字号为18px</p>
+<!--id选择器的使用-->
+<p id="bold">段落一：设置粗体文字</p>
+<p id="font24">段落二：设置字号为24px</p>
+<p id="font24">段落三：设置字号为24px</p>
+<p id="font24 bold" >段落四：同时设置粗体和字号</p>
+</body>
+</html>
