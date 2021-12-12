@@ -26,6 +26,7 @@
   <name>javaweb(程序设计任务教程源码)</name>
   <modules>
     <module>Chapter-Three</module>
+    <module>Chapter-Four</module>
   </modules>
 
   <groupId>com.clevermis</groupId>
