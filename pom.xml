@@ -27,6 +27,7 @@
   <modules>
     <module>Chapter-Three</module>
     <module>Chapter-Four</module>
+    <module>Chapter-Five</module>
   </modules>
 
   <groupId>com.clevermis</groupId>
@@ -55,6 +56,11 @@
       <groupId>javax.servlet.jsp.jstl</groupId>
       <artifactId>jstl-api</artifactId>
       <version>1.2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.18.10</version>
     </dependency>
   </dependencies>
 
