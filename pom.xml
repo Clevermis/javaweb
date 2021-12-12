@@ -28,6 +28,7 @@
     <module>Chapter-Three</module>
     <module>Chapter-Four</module>
     <module>Chapter-Five</module>
+    <module>Chapter-Six</module>
   </modules>
 
   <groupId>com.clevermis</groupId>
