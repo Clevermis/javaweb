@@ -9,6 +9,7 @@
         <module name="Chapter-Three" />
         <module name="Chapter-Four" />
         <module name="Chapter-Five" />
+        <module name="Chapter-Six" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
