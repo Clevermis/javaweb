@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<!--
+ * @Description 对web基础的一个大概总结，仅供参考。
+                为保证网页观看舒适，里面加入了大量<br/>,请勿带入其中代码理解
+ * @Classname HTML复习
+ * @Date 2021/12/14 上午1:37
+ * @Created by clevermis
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+<!--  输入标题的地方-->
+  <title>我是Clevermis</title>
+
+<!--  注意style中写CSS即可  此方法为内嵌式-->
+  <style type="text/css">
+    <!--    定义标题标记居中对奇-->
+    h2{ text-align: center}
+    /*  定义Css标记样式*/
+    div{border:1px solid red ; width: 300px; height: 80px; color: blue;}
+  </style>
+
+<!--  此方法为css链入式，记住link和对应type类型即可  本文中因考虑内容言简意赅，所以并未真实引用。  -->
+  <link href="../Css/cssDemo02.css" type="text/css" rel="stylesheet"/>
+
+<!--  css选择器    -->
+  <style type="text/css">
+    /* 类选择器的定义 */
+    .red {
+      color: red;
+    }
+    .green{
+      color: green;
+    }
+    .font18{
+      font-size: 18px;
+    }
+    /*  id选择器的定义*/
+    #bold {
+      font-weight: bold;
+    }
+    #font24{
+      font-size: 24px;
+    }
+  </style>
+
+<!-- js内嵌式，这里记住js使用的是script以及type对应类型   这里给大家留一个彩蛋，Hhhhhh,希望你们能发现是什么  -->
+  <script type="text/javascript">
+    document.write("clevermis是我哦")
+  </script>
+
+<!--js外嵌式  -->
+  <script type="text/javascript" src="../js/jsDemo02.js"></script>
+</head>
+<body>
+
+<!-- 这里h2与17行对应，div同理  -->
+<h2>内嵌式Css样式</h2>
+<div>
+  使用style标记可定义内嵌式css方式表，style标记一般位于head头部标记中,title标记之后
+</div>
+
+<!--  这里对应代码与49行注释相对应，即同理  -->
+<!--  类选择器的使用-->
+<h1 class="red"> 标题一：class="red",设置颜色为红色</h1>
+<p class="green font18">段落一： 设置颜色为绿色，字号为18px</p>
+
+<!--id选择器的使用-->
+<p id="bold">段落一：设置粗体文字</p>
+<p id="font24">段落二：设置字号为24px</p>
+
+
+<!--  <p>是段落标记   -->
+<p>
+<!--  <br/>是换行标记，可以实现环行效果     -->
+  hello<br/>hello
+</p>
+<br/>
+<!--  font是文本样式标记 -->
+<font face="微软雅黑" size="7" color="green">
+  <br/>网页显示该文字为： 7号绿色文本，字体是微软雅黑
+</font>
+<br/>
+<!--   img是图像标记，src为图片路径，width为宽度，height为高度，border设置有无边框  -->
+<img src="../img/106.png" width="102" height="130" border="0"/>
+<br/>
+<!--   table表格标记，border属性会为每个单元格应用边框，并用边框围绕表格   -->
+<table border="1">
+<!--   <tr>单元行     -->
+  <tr>
+<!--   <td>单元列    -->
+    <td>姓名</td>
+    <td>语文</td>
+  </tr>
+</table>
+<br/>
+
+  <!--   action为表单提交路径 ，method为表单数据的提交方式为post
+          以下所说控件类型，均为type的值差别
+  -->
+  <form action="#" method="post">
+          <!-- 1.文本输入框控件--><br/>
+          <input type="text" name="username">
+          <!-- 2.密码输入框控件--><br/>
+          <input type="password" name="password">
+          <!-- 3.单选输入框控件，由于无法输入Value,所以预先定义好--><br/>
+          <input type="radio" name="gender" value="male">男
+          <!--4.复选框控件--><br/>
+          <input type="checkbox" name="interest" value="film">看电影
+          <!--5.文件上传控件--><br/>
+          <input type="file" name="photo" >
+          <!--6.提交按钮控件--><br/>
+          <input type="submit" value="注册">
+          <!-- 7.重置按钮控件，单击后会清除当前form--><br/>
+          <input type="reset" value="重置">
+          <!--   多行文本标记，cols为每行字符数，rows为显示行数       --><br/>
+          <textarea cols="60" rows="5">
+                  我是Clevermis，欢迎你的关注.
+          </textarea>
+  </form>
+
+<!--  ul为无序列表标记  --><br/>
+<ul>
+<!--  li要嵌套在li中     -->
+  <li>web 前端</li>
+  <!--  指定type属性值，disc为默认值-->
+  <li type="disc">JAVA</li>
+  <li type="square">PHP</li>
+  <li type="circle">.NET</li>
+</ul>
+
+<!-- 超链接标记用法，<a>中使用href就具有了超链接的功能。href属性用于指定链接指向的页面url，target属性为打开方式   --><br/>
+在新窗口打开
+<a href="htmlDemo01.html" target="_blank">htmlDemo01</a><br>
+在原窗口打开
+<a href="htmlDemo02.html" target="_self">htmlDemo02</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
