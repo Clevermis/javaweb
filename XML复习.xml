@@ -22,14 +22,13 @@
 
 
 
-
 <!--   这是第二个  -->
 
 <!--   这个就有意思了，算是一个彩蛋吧，大家自己在servlet复习源码里面找对应位置 -->
   <servlet>
     <servlet-name></servlet-name>
     <servlet-class></servlet-class>
-<!--    彩蛋-->
+<!--  配置Servlet的初始化参数,  彩蛋-->
     <init-param>
       <param-name>encoding</param-name>
       <param-value>UTF-8</param-value>
@@ -42,13 +41,15 @@
 
 
 
-
-
-
-
-
-
-
+<!--  这是第三个  过滤器的xml配置，根servlet一样-->
+<filter>
+  <filter-name></filter-name>
+  <filter-class></filter-class>
+</filter>
+  <filter-mapping>
+    <filter-name></filter-name>
+    <url-pattern></url-pattern>
+  </filter-mapping>
 
 
 

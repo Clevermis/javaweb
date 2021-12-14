@@ -54,11 +54,11 @@ import javax.servlet.http.HttpSession;
                               request.getSession().removeAttribute("clevermis");
  *
  *
- * @Classname Servlet复习
+ * @Classname Servlet基础复习
  * @Date 2021/12/14 上午2:22
  * @Created by clevermis
  */
-public class Servlet复习 extends HttpServlet {
+public class Servlet基础复习 extends HttpServlet {
 // this is doGet method
   @Override
   public void doGet(HttpServletRequest request, HttpServletResponse response)
